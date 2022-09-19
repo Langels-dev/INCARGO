@@ -1,0 +1,508 @@
+@media (max-width: 1167px) {
+
+    .grid-services .grid-list {
+        grid-template-columns: 250px 250px 250px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .grid-Items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 969px) {
+    .square-Img {
+        width: 367px;
+        height: 415px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .square-Img svg {
+        display: none;
+    }
+
+    .square-Item .text-item {
+        top: 20px;
+        left: 0;
+    }
+
+    .text-item h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .text-item .text-img {
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .text-item .text-img img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 944px) {
+
+    .news-cards .card {
+        width: 200px;
+        height: 220px;
+    }
+
+    .news-cards .card img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .news-cards .card svg {
+        width: 50px;
+        height: 50px;
+        top: 20px;
+    }
+
+    .news-cards .card p {
+        font-size: 14px;
+        top: 30px;
+    }
+
+    .news-cards .card h2 {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 924px) {
+
+    .Banner h1,
+    .Banner-about h1,
+    .Banner-contact h1,
+    .Banner-Servicio h1,
+    .Banner-Tarifas h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .grid-services .grid-list {
+        grid-template-columns: 250px 250px;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        margin-top: 10px;
+    }
+
+    .formulario {
+        width: 70%;
+        top: 60px;
+        left: 0;
+    }
+}
+
+@media (max-width: 876px) {
+
+    /* --------------Inicio-------------- */
+    .news-cards {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-cards .card {
+        width: 200px;
+        height: 220px;
+    }
+
+    .news-cards .card img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .news-cards .card svg {
+        width: 50px;
+        height: 50px;
+        top: 15px;
+    }
+
+    .news-cards .card p {
+        font-size: 16px;
+        top: 30px;
+    }
+
+    .news-cards .card h2 {
+        font-size: 22px;
+    }
+
+    /* --------------Inicio-------------- */
+}
+
+@media (max-width: 845px) {
+
+    .grid-Items img {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .rectangle-Item h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .rectangle-Item p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 753px) {
+    nav .iconify {
+        justify-content: flex-end;
+        z-index: 100000;
+    }
+
+    nav .menu-btn .iconify {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    nav .navbar-items {
+        position: relative;
+        top: 0;
+        left: 0;
+        background: #fff;
+        opacity: 0;
+        visibility: hidden;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    #click:checked~.navbar-items {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    nav .navbar-items a {
+        margin: 15px 0;
+        font-size: 24px;
+    }
+
+    nav .navbar-items a img {
+        display: none;
+    }
+
+    nav .info-contact {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        column-gap: 20px;
+        margin-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .header-top ul {
+        display: none;
+    }
+
+    .header-top {
+        justify-content: center;
+    }
+
+    .logo-header {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 637px) {
+
+    .grid-Items {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:615px) {
+    #bm {
+        width: 450px;
+        height: 450px;
+    }
+
+    .content-svg {
+        top: 40px;
+        left: 0;
+    }
+
+    .content-text p {
+        width: 500px;
+        font-size: 16px;
+    }
+
+    .content-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .carousel-wrapper-middle {
+        height: 400px;
+    }
+
+    .your-slider-item1 .text,
+    .your-slider-item2 .text,
+    .your-slider-item3 .text {
+        font-size: 40px;
+    }
+
+    .logo-header {
+        height: 100px;
+    }
+}
+
+@media (max-width: 590px) {
+
+    .grid-services .grid-list {
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px;
+    }
+
+    .class-services h1 {
+        font-size: 25px;
+    }
+
+    .articulo-2 img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .articulo-4 img {
+        padding-top: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .articulo-7 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .articulo-1 img,
+    .articulo-3 img,
+    .articulo-5 img,
+    .articulo-6 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .articulo-3 li {
+        font-size: 11px;
+    }
+
+    .articulo-7 li {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .articulo-1 li,
+    .articulo-2 li,
+    .articulo-4 li,
+    .articulo-5 li,
+    .articulo-6 li {
+        font-size: 15px;
+    }
+
+    .articulo-1 p,
+    .articulo-2 p,
+    .articulo-3 p,
+    .articulo-4 p,
+    .articulo-5 p,
+    .articulo-6 p,
+    .articulo-7 p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:559px) {
+    .calculadora {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:556px) {
+    .footer {
+        justify-content: center;
+    }
+
+    .social-media {
+        margin-left: 40px;
+    }
+
+    .direction {
+        margin-right: 0;
+    }
+
+    .direction h2 {
+        font-size: 24px;
+    }
+
+    .direction p {
+        font-size: 12px;
+    }
+}
+
+@media (max-height:550px) {
+    nav .navbar-items a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:517px) {
+    #bm {
+        width: 350px;
+        height: 350px;
+    }
+
+    .content-svg {
+        top: 40px;
+        left: 0;
+    }
+
+    .content-text p {
+        width: 400px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    #ct {
+        width: 300px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:495px) {
+    .square-Img {
+        width: 267px;
+        height: 415px;
+    }
+
+    .text-item #text-principal {
+        width: 380px;
+    }
+
+    .text-item h1 {
+        font-size: 42px;
+    }
+
+    .text-item .text-img {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:406px) {
+    #bm {
+        width: 250px;
+        height: 250px;
+    }
+
+    .content-svg {
+        top: 40px;
+        left: 0;
+    }
+
+    .content-text p {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .content-text h1 {
+        font-size: 30px;
+    }
+
+    nav .info-contact {
+        flex-direction: column;
+        column-gap: 0;
+        padding-top: 4px;
+        margin-left: 20px;
+        align-items: flex-start;
+        font-size: 12px;
+    }
+
+    nav .info-contact .header-top__svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:381px) {
+    .text-item .text-img {
+        font-size: 12px;
+    }
+
+    .text-item .text-img img {
+        padding-bottom: 8px;
+    }
+
+    .text-item h1 {
+        font-size: 38px;
+    }
+
+    .text-item #text-principal {
+        width: 280px;
+        padding-top: 40px;
+        margin: auto;
+    }
+}
+
+@media (max-width:350px) {
+    .grid-services .grid-list {
+        grid-template-columns: 120px 120px;
+        grid-template-rows: 150px 150px 150px 150px;
+    }
+
+    .articulo-4 li {
+        font-size: 13px;
+    }
+
+    .articulo-3 li {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .grid-Items img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .social-media {
+        margin-left: 70px;
+    }
+
+}
